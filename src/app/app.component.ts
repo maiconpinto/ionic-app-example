@@ -3,6 +3,7 @@ import { Platform, MenuController } from 'ionic-angular';
 import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { HomePage } from '../pages/home/home';
+import { ActionSheetsPage } from '../pages/action-sheets/action-sheets';
 
 
 @Component({
@@ -16,7 +17,8 @@ export class MyApp {
   constructor(platform: Platform, public menuCtrl: MenuController) {
 
     this.pages = [
-      {title: 'Home', component: HomePage}
+      {title: 'Home', component: HomePage},
+      {title: 'Action Scheets', component: ActionSheetsPage}
     ];
 
     platform.ready().then(() => {
