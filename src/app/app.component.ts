@@ -4,6 +4,7 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 
 import { HomePage } from '../pages/home/home';
 import { ActionSheetsPage } from '../pages/action-sheets/action-sheets';
+import { AlertPage } from '../pages/alert/alert';
 
 
 @Component({
@@ -18,7 +19,8 @@ export class MyApp {
 
     this.pages = [
       {title: 'Home', component: HomePage},
-      {title: 'Action Scheets', component: ActionSheetsPage}
+      {title: 'Action Scheets', component: ActionSheetsPage},
+      {title: 'Alert', component: AlertPage}
     ];
 
     platform.ready().then(() => {

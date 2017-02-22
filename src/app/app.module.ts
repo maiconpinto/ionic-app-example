@@ -4,12 +4,14 @@ import { MyApp } from './app.component';
 
 import { HomePage } from '../pages/home/home';
 import { ActionSheetsPage } from '../pages/action-sheets/action-sheets';
+import { AlertPage } from '../pages/alert/alert';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
-    ActionSheetsPage
+    ActionSheetsPage,
+    AlertPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -18,7 +20,8 @@ import { ActionSheetsPage } from '../pages/action-sheets/action-sheets';
   entryComponents: [
     MyApp,
     HomePage,
-    ActionSheetsPage
+    ActionSheetsPage,
+    AlertPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
