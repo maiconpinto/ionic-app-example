@@ -5,13 +5,15 @@ import { MyApp } from './app.component';
 import { HomePage } from '../pages/home/home';
 import { ActionSheetsPage } from '../pages/action-sheets/action-sheets';
 import { AlertPage } from '../pages/alert/alert';
+import { BadgesPage } from '../pages/badges/badges';
 
 @NgModule({
   declarations: [
     MyApp,
     HomePage,
     ActionSheetsPage,
-    AlertPage
+    AlertPage,
+    BadgesPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -21,7 +23,8 @@ import { AlertPage } from '../pages/alert/alert';
     MyApp,
     HomePage,
     ActionSheetsPage,
-    AlertPage
+    AlertPage,
+    BadgesPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

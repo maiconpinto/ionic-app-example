@@ -5,6 +5,7 @@ import { StatusBar, Splashscreen } from 'ionic-native';
 import { HomePage } from '../pages/home/home';
 import { ActionSheetsPage } from '../pages/action-sheets/action-sheets';
 import { AlertPage } from '../pages/alert/alert';
+import { BadgesPage } from '../pages/badges/badges';
 
 
 @Component({
@@ -13,14 +14,15 @@ import { AlertPage } from '../pages/alert/alert';
 export class MyApp {
   rootPage = HomePage;
 
-  pages: Array<{title: string, component: any}> = [];
+  pages: Array<{title: string, component: any, badge: string}> = [];
 
   constructor(platform: Platform, public menuCtrl: MenuController) {
 
     this.pages = [
-      {title: 'Home', component: HomePage},
-      {title: 'Action Scheets', component: ActionSheetsPage},
-      {title: 'Alert', component: AlertPage}
+      {title: 'Home', component: HomePage, badge: ''},
+      {title: 'Action Scheets', component: ActionSheetsPage, badge: ''},
+      {title: 'Alert', component: AlertPage, badge: ''},
+      {title: 'Badges', component: BadgesPage, badge: 'New'}
     ];
 
     platform.ready().then(() => {

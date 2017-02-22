@@ -7,7 +7,7 @@
 
   <ion-content>
     <ion-list>
-      <button ion-item *ngFor="let p of pages" (click)="openPage(p)"> {{ p.title }} </button>
+      <button ion-item *ngFor="let p of pages" (click)="openPage(p)"> {{ p.title }} <ion-badge>{{ p.badge}}</ion-badge> </button>
     </ion-list>
   </ion-content>
 </ion-menu>
