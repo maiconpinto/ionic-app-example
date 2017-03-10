@@ -18,6 +18,14 @@ import { ButtonsSizesPage } from '../pages/buttons-sizes/buttons-sizes';
 import { ButtonsIconsPage } from '../pages/buttons-icons/buttons-icons';
 import { ButtonsComponentsPage } from '../pages/buttons-components/buttons-components';
 
+import { CardsPage } from '../pages/cards/cards';
+import { CardsBasicPage } from '../pages/cards-basic/cards-basic';
+import { CardsHeaderPage } from '../pages/cards-header/cards-header';
+import { CardsListsPage } from '../pages/cards-lists/cards-lists';
+import { CardsImagesPage } from '../pages/cards-images/cards-images';
+import { CardsBackgroundsPage } from '../pages/cards-backgrounds/cards-backgrounds';
+import { CardsSocialPage } from '../pages/cards-social/cards-social';
+import { CardsMapPage } from '../pages/cards-map/cards-map';
 
 @NgModule({
   declarations: [
@@ -27,7 +35,9 @@ import { ButtonsComponentsPage } from '../pages/buttons-components/buttons-compo
     AlertPage,
     BadgesPage,
     ButtonsPage,
-    ButtonsColorsPage,ButtonsOutlinePage,ButtonsClearPage,ButtonsRoundPage,ButtonsBlockPage,ButtonsFullPage,ButtonsSizesPage,ButtonsIconsPage,ButtonsComponentsPage
+    ButtonsColorsPage,ButtonsOutlinePage,ButtonsClearPage,ButtonsRoundPage,ButtonsBlockPage,ButtonsFullPage,ButtonsSizesPage,ButtonsIconsPage,ButtonsComponentsPage,
+    CardsPage,
+    CardsBasicPage, CardsHeaderPage, CardsListsPage, CardsImagesPage, CardsBackgroundsPage, CardsSocialPage, CardsMapPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -40,7 +50,9 @@ import { ButtonsComponentsPage } from '../pages/buttons-components/buttons-compo
     AlertPage,
     BadgesPage,
     ButtonsPage,
-    ButtonsColorsPage,ButtonsOutlinePage,ButtonsClearPage,ButtonsRoundPage,ButtonsBlockPage,ButtonsFullPage,ButtonsSizesPage,ButtonsIconsPage,ButtonsComponentsPage
+    ButtonsColorsPage,ButtonsOutlinePage,ButtonsClearPage,ButtonsRoundPage,ButtonsBlockPage,ButtonsFullPage,ButtonsSizesPage,ButtonsIconsPage,ButtonsComponentsPage,
+    CardsPage,
+    CardsBasicPage, CardsHeaderPage, CardsListsPage, CardsImagesPage, CardsBackgroundsPage, CardsSocialPage, CardsMapPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
