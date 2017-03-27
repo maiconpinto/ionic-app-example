@@ -29,6 +29,8 @@ import { CardsMapPage } from '../pages/cards-map/cards-map';
 
 import { CheckboxPage } from '../pages/checkbox/checkbox';
 
+import { DatetimePage } from '../pages/datetime/datetime';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -40,7 +42,8 @@ import { CheckboxPage } from '../pages/checkbox/checkbox';
     ButtonsColorsPage,ButtonsOutlinePage,ButtonsClearPage,ButtonsRoundPage,ButtonsBlockPage,ButtonsFullPage,ButtonsSizesPage,ButtonsIconsPage,ButtonsComponentsPage,
     CardsPage,
     CardsBasicPage, CardsHeaderPage, CardsListsPage, CardsImagesPage, CardsBackgroundsPage, CardsSocialPage, CardsMapPage,
-    CheckboxPage
+    CheckboxPage,
+    DatetimePage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -56,7 +59,8 @@ import { CheckboxPage } from '../pages/checkbox/checkbox';
     ButtonsColorsPage,ButtonsOutlinePage,ButtonsClearPage,ButtonsRoundPage,ButtonsBlockPage,ButtonsFullPage,ButtonsSizesPage,ButtonsIconsPage,ButtonsComponentsPage,
     CardsPage,
     CardsBasicPage, CardsHeaderPage, CardsListsPage, CardsImagesPage, CardsBackgroundsPage, CardsSocialPage, CardsMapPage,
-    CheckboxPage
+    CheckboxPage,
+    DatetimePage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
