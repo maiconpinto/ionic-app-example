@@ -8,6 +8,7 @@ import { AlertPage } from '../pages/alert/alert';
 import { BadgesPage } from '../pages/badges/badges';
 import { ButtonsPage } from '../pages/buttons/buttons';
 import { CardsPage } from '../pages/cards/cards';
+import { CheckboxPage } from '../pages/checkbox/checkbox';
 
 
 @Component({
@@ -26,7 +27,8 @@ export class MyApp {
       {title: 'Alert', component: AlertPage, badge: ''},
       {title: 'Badges', component: BadgesPage, badge: 'New'},
       {title: 'Buttons', component: ButtonsPage, badge: ''},
-      {title: 'Cards', component: CardsPage, badge: ''}
+      {title: 'Cards', component: CardsPage, badge: ''},
+      {title: 'Checkbox', component: CheckboxPage, badge: ''},
     ];
 
     platform.ready().then(() => {

@@ -27,6 +27,8 @@ import { CardsBackgroundsPage } from '../pages/cards-backgrounds/cards-backgroun
 import { CardsSocialPage } from '../pages/cards-social/cards-social';
 import { CardsMapPage } from '../pages/cards-map/cards-map';
 
+import { CheckboxPage } from '../pages/checkbox/checkbox';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -37,7 +39,8 @@ import { CardsMapPage } from '../pages/cards-map/cards-map';
     ButtonsPage,
     ButtonsColorsPage,ButtonsOutlinePage,ButtonsClearPage,ButtonsRoundPage,ButtonsBlockPage,ButtonsFullPage,ButtonsSizesPage,ButtonsIconsPage,ButtonsComponentsPage,
     CardsPage,
-    CardsBasicPage, CardsHeaderPage, CardsListsPage, CardsImagesPage, CardsBackgroundsPage, CardsSocialPage, CardsMapPage
+    CardsBasicPage, CardsHeaderPage, CardsListsPage, CardsImagesPage, CardsBackgroundsPage, CardsSocialPage, CardsMapPage,
+    CheckboxPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -52,7 +55,8 @@ import { CardsMapPage } from '../pages/cards-map/cards-map';
     ButtonsPage,
     ButtonsColorsPage,ButtonsOutlinePage,ButtonsClearPage,ButtonsRoundPage,ButtonsBlockPage,ButtonsFullPage,ButtonsSizesPage,ButtonsIconsPage,ButtonsComponentsPage,
     CardsPage,
-    CardsBasicPage, CardsHeaderPage, CardsListsPage, CardsImagesPage, CardsBackgroundsPage, CardsSocialPage, CardsMapPage
+    CardsBasicPage, CardsHeaderPage, CardsListsPage, CardsImagesPage, CardsBackgroundsPage, CardsSocialPage, CardsMapPage,
+    CheckboxPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
