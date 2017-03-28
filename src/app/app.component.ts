@@ -10,6 +10,7 @@ import { ButtonsPage } from '../pages/buttons/buttons';
 import { CardsPage } from '../pages/cards/cards';
 import { CheckboxPage } from '../pages/checkbox/checkbox';
 import { DatetimePage } from '../pages/datetime/datetime';
+import { FabsPage } from '../pages/fabs/fabs';
 
 
 @Component({
@@ -31,6 +32,7 @@ export class MyApp {
       {title: 'Cards', component: CardsPage, badge: ''},
       {title: 'Checkbox', component: CheckboxPage, badge: ''},
       {title: 'DateTime', component: DatetimePage, badge: ''},
+      {title: 'Fabs', component: FabsPage, badge: ''},
     ];
 
     platform.ready().then(() => {
