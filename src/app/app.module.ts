@@ -33,6 +33,8 @@ import { DatetimePage } from '../pages/datetime/datetime';
 
 import { FabsPage } from '../pages/fabs/fabs';
 
+import { GesturesPage } from '../pages/gestures/gestures';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -46,7 +48,8 @@ import { FabsPage } from '../pages/fabs/fabs';
     CardsBasicPage, CardsHeaderPage, CardsListsPage, CardsImagesPage, CardsBackgroundsPage, CardsSocialPage, CardsMapPage,
     CheckboxPage,
     DatetimePage,
-    FabsPage
+    FabsPage,
+    GesturesPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -64,7 +67,8 @@ import { FabsPage } from '../pages/fabs/fabs';
     CardsBasicPage, CardsHeaderPage, CardsListsPage, CardsImagesPage, CardsBackgroundsPage, CardsSocialPage, CardsMapPage,
     CheckboxPage,
     DatetimePage,
-    FabsPage
+    FabsPage,
+    GesturesPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })
