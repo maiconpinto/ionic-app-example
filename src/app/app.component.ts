@@ -12,6 +12,7 @@ import { CheckboxPage } from '../pages/checkbox/checkbox';
 import { DatetimePage } from '../pages/datetime/datetime';
 import { FabsPage } from '../pages/fabs/fabs';
 import { GesturesPage } from '../pages/gestures/gestures';
+import { GridPage } from '../pages/grid/grid';
 
 
 @Component({
@@ -35,6 +36,7 @@ export class MyApp {
       {title: 'DateTime', component: DatetimePage, badge: ''},
       {title: 'Fabs', component: FabsPage, badge: ''},
       {title: 'Gestures', component: GesturesPage, badge: ''},
+      {title: 'Grid', component: GridPage, badge: ''},
     ];
 
     platform.ready().then(() => {
