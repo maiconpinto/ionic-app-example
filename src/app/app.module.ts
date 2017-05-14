@@ -39,6 +39,8 @@ import { GridPage } from '../pages/grid/grid';
 
 import { IconsPage } from '../pages/icons/icons';
 
+import { SearchbarPage } from '../pages/searchbar/searchbar';
+
 @NgModule({
   declarations: [
     MyApp,
@@ -55,7 +57,8 @@ import { IconsPage } from '../pages/icons/icons';
     FabsPage,
     GesturesPage,
     GridPage,
-    IconsPage
+    IconsPage,
+    SearchbarPage
   ],
   imports: [
     IonicModule.forRoot(MyApp)
@@ -76,7 +79,8 @@ import { IconsPage } from '../pages/icons/icons';
     FabsPage,
     GesturesPage,
     GridPage,
-    IconsPage
+    IconsPage,
+    SearchbarPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
 })

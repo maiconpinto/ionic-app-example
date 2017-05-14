@@ -14,6 +14,7 @@ import { FabsPage } from '../pages/fabs/fabs';
 import { GesturesPage } from '../pages/gestures/gestures';
 import { GridPage } from '../pages/grid/grid';
 import { IconsPage } from '../pages/icons/icons';
+import { SearchbarPage } from '../pages/searchbar/searchbar';
 
 
 @Component({
@@ -39,6 +40,7 @@ export class MyApp {
       {title: 'Gestures', component: GesturesPage, badge: ''},
       {title: 'Grid', component: GridPage, badge: ''},
       {title: 'Icons', component: IconsPage, badge: ''},
+      {title: 'Searchbar', component: SearchbarPage, badge: ''},
     ];
 
     platform.ready().then(() => {
