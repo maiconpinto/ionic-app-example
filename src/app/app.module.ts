@@ -39,6 +39,9 @@ import { GridPage } from '../pages/grid/grid';
 
 import { IconsPage } from '../pages/icons/icons';
 
+import { InputsPage } from '../pages/inputs/inputs';
+import { InputsFixedInlineLabelsPage } from '../pages/inputs-fixed-inline-labels/inputs-fixed-inline-labels';
+
 import { SearchbarPage } from '../pages/searchbar/searchbar';
 
 @NgModule({
@@ -58,6 +61,8 @@ import { SearchbarPage } from '../pages/searchbar/searchbar';
     GesturesPage,
     GridPage,
     IconsPage,
+    InputsPage,
+    InputsFixedInlineLabelsPage,
     SearchbarPage
   ],
   imports: [
@@ -80,6 +85,8 @@ import { SearchbarPage } from '../pages/searchbar/searchbar';
     GesturesPage,
     GridPage,
     IconsPage,
+    InputsPage,
+    InputsFixedInlineLabelsPage,
     SearchbarPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]

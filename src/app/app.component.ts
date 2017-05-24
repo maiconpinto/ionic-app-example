@@ -14,6 +14,7 @@ import { FabsPage } from '../pages/fabs/fabs';
 import { GesturesPage } from '../pages/gestures/gestures';
 import { GridPage } from '../pages/grid/grid';
 import { IconsPage } from '../pages/icons/icons';
+import { InputsPage } from '../pages/inputs/inputs';
 import { SearchbarPage } from '../pages/searchbar/searchbar';
 
 
@@ -40,6 +41,7 @@ export class MyApp {
       {title: 'Gestures', component: GesturesPage, badge: ''},
       {title: 'Grid', component: GridPage, badge: ''},
       {title: 'Icons', component: IconsPage, badge: ''},
+      {title: 'Inputs', component: InputsPage, badge: ''},
       {title: 'Searchbar', component: SearchbarPage, badge: ''},
     ];
 
