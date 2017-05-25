@@ -6,6 +6,7 @@ import { ActionSheetController } from 'ionic-angular';
 import { InputsFixedInlineLabelsPage } from '../inputs-fixed-inline-labels/inputs-fixed-inline-labels';
 import { InputsFloatingLabelsPage } from '../inputs-floating-labels/inputs-floating-labels';
 import { InputsInlineLabelsPage } from '../inputs-inline-labels/inputs-inline-labels';
+import { InputsInsetLabelsPage } from '../inputs-inset-labels/inputs-inset-labels';
 
 @Component({
   selector: 'page-inputs',
@@ -38,6 +39,13 @@ export class InputsPage {
           role: 'destructive',
           handler: () => {
             this.openPage(InputsInlineLabelsPage)
+          }
+        },
+        {
+          text: 'Inset Labels',
+          role: 'destructive',
+          handler: () => {
+            this.openPage(InputsInsetLabelsPage)
           }
         },
       ]

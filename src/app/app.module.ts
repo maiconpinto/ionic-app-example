@@ -43,6 +43,7 @@ import { InputsPage } from '../pages/inputs/inputs';
 import { InputsFixedInlineLabelsPage } from '../pages/inputs-fixed-inline-labels/inputs-fixed-inline-labels';
 import { InputsFloatingLabelsPage } from '../pages/inputs-floating-labels/inputs-floating-labels';
 import { InputsInlineLabelsPage } from '../pages/inputs-inline-labels/inputs-inline-labels';
+import { InputsInsetLabelsPage } from '../pages/inputs-inset-labels/inputs-inset-labels';
 
 import { SearchbarPage } from '../pages/searchbar/searchbar';
 
@@ -64,7 +65,7 @@ import { SearchbarPage } from '../pages/searchbar/searchbar';
     GridPage,
     IconsPage,
     InputsPage,
-    InputsFixedInlineLabelsPage, InputsFloatingLabelsPage, InputsInlineLabelsPage,
+    InputsFixedInlineLabelsPage, InputsFloatingLabelsPage, InputsInlineLabelsPage, InputsInsetLabelsPage,
     SearchbarPage
   ],
   imports: [
@@ -88,7 +89,7 @@ import { SearchbarPage } from '../pages/searchbar/searchbar';
     GridPage,
     IconsPage,
     InputsPage,
-    InputsFixedInlineLabelsPage, InputsFloatingLabelsPage, InputsInlineLabelsPage,
+    InputsFixedInlineLabelsPage, InputsFloatingLabelsPage, InputsInlineLabelsPage, InputsInsetLabelsPage,
     SearchbarPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
