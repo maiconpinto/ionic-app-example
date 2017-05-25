@@ -8,6 +8,7 @@ import { InputsFloatingLabelsPage } from '../inputs-floating-labels/inputs-float
 import { InputsInlineLabelsPage } from '../inputs-inline-labels/inputs-inline-labels';
 import { InputsInsetLabelsPage } from '../inputs-inset-labels/inputs-inset-labels';
 import { InputsPlaceholderLabelsPage } from '../inputs-placeholder-labels/inputs-placeholder-labels';
+import { InputsStackedLabelsPage } from '../inputs-stacked-labels/inputs-stacked-labels';
 
 @Component({
   selector: 'page-inputs',
@@ -54,6 +55,13 @@ export class InputsPage {
           role: 'destructive',
           handler: () => {
             this.openPage(InputsPlaceholderLabelsPage)
+          }
+        },
+        {
+          text: 'Stacked Labels',
+          role: 'destructive',
+          handler: () => {
+            this.openPage(InputsStackedLabelsPage)
           }
         },
       ]
