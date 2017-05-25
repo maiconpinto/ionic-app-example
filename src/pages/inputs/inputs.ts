@@ -7,6 +7,7 @@ import { InputsFixedInlineLabelsPage } from '../inputs-fixed-inline-labels/input
 import { InputsFloatingLabelsPage } from '../inputs-floating-labels/inputs-floating-labels';
 import { InputsInlineLabelsPage } from '../inputs-inline-labels/inputs-inline-labels';
 import { InputsInsetLabelsPage } from '../inputs-inset-labels/inputs-inset-labels';
+import { InputsPlaceholderLabelsPage } from '../inputs-placeholder-labels/inputs-placeholder-labels';
 
 @Component({
   selector: 'page-inputs',
@@ -46,6 +47,13 @@ export class InputsPage {
           role: 'destructive',
           handler: () => {
             this.openPage(InputsInsetLabelsPage)
+          }
+        },
+        {
+          text: 'Placeholder Labels',
+          role: 'destructive',
+          handler: () => {
+            this.openPage(InputsPlaceholderLabelsPage)
           }
         },
       ]
