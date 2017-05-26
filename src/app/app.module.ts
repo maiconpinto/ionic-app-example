@@ -49,6 +49,7 @@ import { InputsStackedLabelsPage } from '../pages/inputs-stacked-labels/inputs-s
 
 import { ListsPage } from '../pages/lists/lists';
 import { ListsBasicPage } from '../pages/lists-basic/lists-basic';
+import { ListsNoLinesPage } from '../pages/lists-no-lines/lists-no-lines';
 
 import { SearchbarPage } from '../pages/searchbar/searchbar';
 
@@ -72,7 +73,7 @@ import { SearchbarPage } from '../pages/searchbar/searchbar';
     InputsPage,
     InputsFixedInlineLabelsPage, InputsFloatingLabelsPage, InputsInlineLabelsPage, InputsInsetLabelsPage, InputsPlaceholderLabelsPage, InputsStackedLabelsPage,
     ListsPage,
-    ListsBasicPage,
+    ListsBasicPage, ListsNoLinesPage,
     SearchbarPage
   ],
   imports: [
@@ -98,7 +99,7 @@ import { SearchbarPage } from '../pages/searchbar/searchbar';
     InputsPage,
     InputsFixedInlineLabelsPage, InputsFloatingLabelsPage, InputsInlineLabelsPage, InputsInsetLabelsPage, InputsPlaceholderLabelsPage, InputsStackedLabelsPage,
     ListsPage,
-    ListsBasicPage,
+    ListsBasicPage, ListsNoLinesPage,
     SearchbarPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]

@@ -4,6 +4,7 @@ import { NavController, NavParams } from 'ionic-angular';
 import { ActionSheetController } from 'ionic-angular';
 
 import { ListsBasicPage } from '../lists-basic/lists-basic';
+import { ListsNoLinesPage } from '../lists-no-lines/lists-no-lines';
 
 @Component({
   selector: 'page-lists',
@@ -22,6 +23,13 @@ export class ListsPage {
           role: 'destructive',
           handler: () => {
             this.openPage(ListsBasicPage)
+          }
+        },
+        {
+          text: 'No Lines',
+          role: 'destructive',
+          handler: () => {
+            this.openPage(ListsNoLinesPage)
           }
         },
       ]
