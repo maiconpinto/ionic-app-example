@@ -47,6 +47,9 @@ import { InputsInsetLabelsPage } from '../pages/inputs-inset-labels/inputs-inset
 import { InputsPlaceholderLabelsPage } from '../pages/inputs-placeholder-labels/inputs-placeholder-labels';
 import { InputsStackedLabelsPage } from '../pages/inputs-stacked-labels/inputs-stacked-labels';
 
+import { ListsPage } from '../pages/lists/lists';
+import { ListsBasicPage } from '../pages/lists-basic/lists-basic';
+
 import { SearchbarPage } from '../pages/searchbar/searchbar';
 
 @NgModule({
@@ -68,6 +71,8 @@ import { SearchbarPage } from '../pages/searchbar/searchbar';
     IconsPage,
     InputsPage,
     InputsFixedInlineLabelsPage, InputsFloatingLabelsPage, InputsInlineLabelsPage, InputsInsetLabelsPage, InputsPlaceholderLabelsPage, InputsStackedLabelsPage,
+    ListsPage,
+    ListsBasicPage,
     SearchbarPage
   ],
   imports: [
@@ -92,6 +97,8 @@ import { SearchbarPage } from '../pages/searchbar/searchbar';
     IconsPage,
     InputsPage,
     InputsFixedInlineLabelsPage, InputsFloatingLabelsPage, InputsInlineLabelsPage, InputsInsetLabelsPage, InputsPlaceholderLabelsPage, InputsStackedLabelsPage,
+    ListsPage,
+    ListsBasicPage,
     SearchbarPage
   ],
   providers: [{provide: ErrorHandler, useClass: IonicErrorHandler}]
