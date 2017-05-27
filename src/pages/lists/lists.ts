@@ -5,6 +5,7 @@ import { ActionSheetController } from 'ionic-angular';
 
 import { ListsBasicPage } from '../lists-basic/lists-basic';
 import { ListsNoLinesPage } from '../lists-no-lines/lists-no-lines';
+import { ListsInsetPage } from '../lists-inset/lists-inset';
 
 @Component({
   selector: 'page-lists',
@@ -30,6 +31,13 @@ export class ListsPage {
           role: 'destructive',
           handler: () => {
             this.openPage(ListsNoLinesPage)
+          }
+        },
+        {
+          text: 'Inset List',
+          role: 'destructive',
+          handler: () => {
+            this.openPage(ListsInsetPage)
           }
         },
       ]
